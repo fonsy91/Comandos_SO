@@ -29,4 +29,10 @@ los ficheros que difieren de un directorio a otro.
 	$ diff  -r -q <directorio1> <directorio2>
 ```
 
+-__du__:  Muestra el tamaño del archivo o del directorio donde nos encontremos
+
+```bash
+	$ du  <directorio/archivo>
+```
+
 
