@@ -35,4 +35,26 @@ los ficheros que difieren de un directorio a otro.
 	$ du  <directorio/archivo>
 ```
 
+-__find__:  Encuentra archivos en el directorio donde nos encontremos, se
+puede buscar por nombre de archivo (-name), tipo de archivo (-type),
+tamaño (-size) etc...
+
+```bash
+	$ find . -name  <nombre_diectorio/archivo>
+```
+
+-__grep__:  Busca patrones en un archivo, algunas opciones son:
+
+-__i__: la búsqueda no distinguirá entre mayúsculas y minúsculas. Es decir, si quieres buscar la palabra «auto» será lo mismo que «AUTO»
+-__c__: solo mostrará el número de líneas que coinciden con el patrón buscado
+-__r__: habilita la búsqueda recursiva en el directorio actual
+-__n__: busca líneas y precede cada línea coincidente con un número de línea.
+-__v__: con esta opción, se nos muestran las líneas que no coinciden con el patrón que hemos buscado
+
+```bash
+	$ grep [opciones] patter [archivo]
+	$grep -i <palabra a buscar> [archivo]
+```
+
+
 
